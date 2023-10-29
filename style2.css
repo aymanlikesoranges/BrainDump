@@ -1,0 +1,37 @@
+nav ul { display: flex;
+    list-style: none;
+    padding: 5px 0px 5px 0px; 
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+
+nav a { 
+    text-decoration: none; 
+    color: black;
+    font-weight: bold;
+    font-size:25px;
+}
+
+nav a:hover { 
+    border-bottom: 2px solid gray;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+textarea {
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(146, 212, 218);
+}
+
+
+
+
+
+
+
