@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Journal App Project</title>
-        <meta charset="utf-8"/>
-        <link rel="stylesheet" href="style.css"/>
-    </head>
-    <body>
-        <header>
-            <h1>Brain Dump</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calender</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/dycalendarjs@1.2.1/css/dycalendar.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <link rel="stylesheet" href="css/final.css">
+   <title></title>    
+</head>
+<body>
+    <header>
+        <h1>Brain Dump <img src="images/braindump_logo.png" width="80" height="80"></h1>
             <nav>
                 <ul>
-                    <li><a href="">Entries</a></li>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Community</a></li>
-                    <li><a href="">Profile</a></li>
-                    
+                    <li><a href="entries.html">Entries</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="community.html">Community</a></li>
+                    <li><a href="profile.html">Profile</a></li>
                 </ul>
-            </nav>
-        </header>
+            </nav>  
+    </header>
         <main>
-            <p>HI, WELCOME!</p>
-            <div>
-                <label for="input-box">Entries</label>
-                <textarea name ="input-box" id="input-box" rows="15" columns="15"></textarea>
-            </div>
+            <div class="container">
+                <div class = "entries" id="entries"> 
+                    <label for="input-box">Entries</label>
+                    <textarea name ="input-box" id="input-box" rows="40" columns="15"></textarea>
+                </div>
+                <div class="dycalendar" id="dycalendar"></div>
+                <div class = "entries" id="entries">
+                    <label for="input-box">Entries</label>
+                    <textarea name ="input-box" id="input-box" rows="40" columns="15"></textarea>
+                </div>
         </main>
+        <script src="https://cdn.jsdelivr.net/npm/dycalendarjs@1.2.1/js/dycalendar.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
